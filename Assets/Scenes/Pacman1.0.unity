@@ -1769,7 +1769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GAME    OVER
+  m_Text: "GAME    OVER\nPress space \nto restart"
 --- !u!222 &1133529215
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11251,6 +11251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08d022e8ce7b0c4d9c2ba033e09cb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!114 &2107185094 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5660416300114475816, guid: 0d1f951e4ac24fe478d688dbf86a5c39, type: 3}
