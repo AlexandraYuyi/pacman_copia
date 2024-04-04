@@ -51,6 +51,18 @@ public class GameManager : MonoBehaviour
         {
             NewGame();
         }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (Time.timeScale == 1)
+            {
+                Time.timeScale = 0; // Pause the game
+            }
+            else
+            {
+                Time.timeScale = 1; // Unpause the game
+            }
+        }
     }
 
     public void NewGame()
